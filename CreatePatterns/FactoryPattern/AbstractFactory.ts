@@ -38,4 +38,4 @@ function sendNotification(factory: NotificationFactory, message: string): void {
 }
 
 // Usage
-sendNotification(new EmailNotificationFactory(), "Hello from Abstract Factory");
+sendNotification(new SMSNotificationFactory(), "Hello from Abstract Factory");
